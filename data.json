@@ -1,0 +1,72 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Random Quote Generator",
+      "description": "An app which generates a random quotes. These quote traverse by either activating the autogenerate or next button.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://allancheow.github.io/Random-Quote-Generator/",
+      "github_link": "https://github.com/allancheow/Random-Quote-Generator",
+      "image_url": [
+        "/images/Unit01_Index_Page.png",
+        "/images/Unit01_Project_Page1.png",
+        "/images/Unit01_Project_Page2.png",
+        "/images/Unit01_Project_Page3.png",
+        "/images/Unit01_Project_Page4.png",
+        "/images/Unit01_Project_Page5.png"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "Data Pagination and Filtering",
+      "description": "An app which provides a list of students with search capabilities. The pagination updates based on the number of students returned.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://allancheow.github.io/Data-Pagination-and-Filtering/",
+      "github_link": "https://github.com/allancheow/Data-Pagination-and-Filtering",
+      "image_url": [
+        "/images/Unit02_Index_Page.png",
+        "/images/Unit02_Project_Page1.png",
+        "/images/Unit02_Project_Page2.png"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Interactive Form",
+      "description": "An app of a mock registration form. This form provides feedback for field validation and adheres to accessibility standards.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://allancheow.github.io/Interactive-Form/",
+      "github_link": "https://github.com/allancheow/Interactive-Form",
+      "image_url": [
+        "/images/Unit03_Index_Page.png",
+        "/images/Unit03_Project_Page1.png"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "OOP Game",
+      "description": "An in browser app phrase guessing game. You're given five lives and can enter each letter with your keyboard or screen click.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://allancheow.github.io/OOP-Game/",
+      "github_link": "https://github.com/allancheow/OOP-Game",
+      "image_url": [
+        "/images/Unit04_Index_Page.png",
+        "/images/Unit04_Project_Page1.png",
+        "/images/Unit04_Project_Page2.png"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Public API Request",
+      "description": "An app of a fictional company directory. Utilizes an API to gather contact details of the employee.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://allancheow.github.io/Public-API-Request/",
+      "github_link": "https://github.com/allancheow/Public-API-Request",
+      "image_url": [
+        "/images/Unit05_Index_Page.png",
+        "/images/Unit05_Project_Page1.png",
+        "/images/Unit05_Project_Page2.png",
+        "/images/Unit05_Project_Page3.png"
+      ]
+    }
+  ]
+}

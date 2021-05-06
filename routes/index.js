@@ -12,7 +12,14 @@ router.get('/about', (req, res) => {
 });
 
 router.get('/project/:id', (req, res) => {
-  res.send(`Project page for ID #${req.params.id}`);
+  const projectId = req.params.id;
+  const project = projects.find(({ id }) => id === +projectId);
+
+  if (project) {
+    res.render('project', { project });
+  } else {
+    res.sendStatus(404);
+  }
 });
 
 module.exports = router;

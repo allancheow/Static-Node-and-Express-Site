@@ -2,24 +2,25 @@ const express = require('express');
 const router = express.Router();
 const { projects } = require('../data.json');
 
+// route to home page passing project database
 router.get('/', (req, res) => {
-  // res.send('Home page');
   res.render('index', { projects });
 });
 
+// route to about page
 router.get('/about', (req, res) => {
   res.render('about', { projects });
 });
 
-router.get('/project/:id', (req, res) => {
+// route to each individual project page
+router.get('/project/:id', (req, res, next) => {
   const projectId = req.params.id;
   const project = projects.find(({ id }) => id === +projectId);
 
-  if (project) {
-    res.render('project', { project });
-  } else {
-    res.sendStatus(404);
-  }
+  // utilizing ternary operator to determine if project exist in the database
+  project
+    ? res.render('project', { project })
+    : ((err = new Error()), (err.status = 404), next(err));
 });
 
 module.exports = router;

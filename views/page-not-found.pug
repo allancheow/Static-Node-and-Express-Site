@@ -1,0 +1,19 @@
+extends layout.pug
+
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-about
+    .inner-wrapper.flex-row-wrap.two-col
+      .project-img-box.box
+        h1 Error: #{err.status} - #{err.message}
+        img.project-img(src=`/static/images/Error_404.png`, alt=`Image of page not found`)
+
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back

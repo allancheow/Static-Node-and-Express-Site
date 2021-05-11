@@ -23,6 +23,8 @@ app.use((req, res, next) => {
 
 // error handler
 app.use((err, req, res, next) => {
+  console.log(`Sorry, you've encountered a ${err.status} Error`);
+
   err.status === 404
     ? res.status(404).render('page-not-found', { err })
     : res.status(err.status || 500).render('error', { err });

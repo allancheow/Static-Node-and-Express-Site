@@ -1,3 +1,4 @@
+const createError = require('http-errors');
 const express = require('express');
 const router = express.Router();
 const { projects } = require('../data.json');
@@ -9,6 +10,8 @@ router.get('/', (req, res) => {
 
 // route to about page
 router.get('/about', (req, res) => {
+  // Uncomment below to test non 404 error
+  // throw createError(500);
   res.render('about', { projects });
 });
 

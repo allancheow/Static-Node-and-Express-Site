@@ -11,6 +11,15 @@ This project builds a portfolio site to showcase my completed work with my Full 
 This portfolio contains my contact details and some information about myself.
 <br>
 
+# Changes
+
+- Changed font style from 'Merriweather' to 'Roboto'
+- Updated sidebar/menu/body background color from #000 to #003366
+- Updated sidebar text color from #999 to #fff
+- Added border color to 404 Page Not Found image
+- Added fadein effect on project page load
+- Added box shadow on hover of project overview page
+
 # Demo [Hosted]
 
 [Link](https://allan-cheow.herokuapp.com/)

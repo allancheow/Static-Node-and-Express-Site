@@ -20,6 +20,6 @@ This portfolio contains my contact details and some information about myself.
 - Added fadein effect on project page load
 - Added box shadow on hover of project overview page
 
-# Demo [Hosted]
+# Demo [Hosted - Heroku]
 
 [Link](https://allan-cheow.herokuapp.com/)

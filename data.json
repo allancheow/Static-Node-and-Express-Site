@@ -20,7 +20,7 @@
       "id": 1,
       "project_name": "Data Pagination and Filtering",
       "description": "An app which provides a list of students with search capabilities. The pagination updates based on the number of students returned.",
-      "technologies": ["HTML", "CSS", "JavaScript"],
+      "technologies": ["HTML", "CSS", "JavaScript", "RegEx"],
       "live_link": "https://allancheow.github.io/Data-Pagination-and-Filtering/",
       "github_link": "https://github.com/allancheow/Data-Pagination-and-Filtering",
       "image_url": [
@@ -45,7 +45,7 @@
       "id": 3,
       "project_name": "OOP Game",
       "description": "An in browser app phrase guessing game. You're given five lives and can enter each letter with your keyboard or screen click.",
-      "technologies": ["HTML", "CSS", "JavaScript"],
+      "technologies": ["HTML", "CSS", "JavaScript", "AJAX"],
       "live_link": "https://allancheow.github.io/OOP-Game/",
       "github_link": "https://github.com/allancheow/OOP-Game",
       "image_url": [
@@ -66,6 +66,26 @@
         "/images/Unit05_Project_Page1.png",
         "/images/Unit05_Project_Page2.png",
         "/images/Unit05_Project_Page3.png"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Static Node.js and Express Site",
+      "description": "A simple static portfolio app. This app is built on NodeJS with ExpressJS and Pug templating.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Pug",
+        "Node.js",
+        "ExpressJs"
+      ],
+      "live_link": "https://allan-cheow.herokuapp.com/",
+      "github_link": "https://github.com/allancheow/Static-Node-and-Express-Site",
+      "image_url": [
+        "/images/Unit06_Index_Page.png",
+        "/images/Unit06_Project_Page1.png",
+        "/images/Unit06_Project_Page2.png"
       ]
     }
   ]

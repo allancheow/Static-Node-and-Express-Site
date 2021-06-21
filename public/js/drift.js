@@ -1,6 +1,5 @@
-// <!-- Start of Async Drift Code-->
-// <script>
 'use strict';
+
 !(function () {
   var t = (window.driftt = window.drift = window.driftt || []);
   if (!t.init) {
@@ -30,7 +29,4 @@
   }
 })();
 drift.SNIPPET_VERSION = '0.3.1';
-drift.load('styanv62uf6w');
-{
-  /* </script><!-- End of Async Drift Code--> */
-}
+drift.load('styanv62uf6w'); // Your embed ID found within your account goes here
